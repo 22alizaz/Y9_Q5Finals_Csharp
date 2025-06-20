@@ -12,7 +12,7 @@ namespace Y9_Q5Finals_Csharp
 
 
             Console.WriteLine("Input the number of essays handed in late");
-            int late = Convert.ToInt32(Console.ReadLine());
+            int late = Convert.ToInt32(Console.ReadLine()); //corrected this line by casting
             float total = e1 + e2 + e3;
             while (total >= 0)
             {
