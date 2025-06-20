@@ -33,6 +33,7 @@ namespace Y9_Q5Finals_Csharp
             }
             Console.WriteLine("The total mark is " + total);
 
+
         }
     }
 }
